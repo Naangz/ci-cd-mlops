@@ -5,12 +5,12 @@ on:
     types:
     - completed
 
-  workflow dispatch:
+  workflow_dispatch:
 
 jobs:
   build:
-  runs-on: ubuntu-latest
-  steps:
+    runs-on: ubuntu-latest
+    steps:
     - uses: actions/checkout@v3
 
     - name: Deployment to huggingface
