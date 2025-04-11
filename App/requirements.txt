@@ -1,9 +1,9 @@
 # Core ML stack
 scikit-learn==1.3.0
 skops==0.11.0
-numpy
+numpy==1.24.4
 pandas==1.5.0
-gradio
+gradio==4.25.0  # or latest stable
 
 # App dependencies
 flask==2.3.0
